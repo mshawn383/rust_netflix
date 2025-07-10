@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Streamer</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/0.5.14/hls.min.js"></script>
-     <script src="/static/player.js"></script>
-<link rel="modulepreload" href="/hls_video_streamer-407d4742aa63d321.js" crossorigin="anonymous" integrity="sha384-icrW7egns93UOcmzBDwWLd3Slhfvy69Yh9yeevsNeaO0pzBnhCPmeL9EAYbiQAii"><link rel="preload" href="/hls_video_streamer-407d4742aa63d321_bg.wasm" crossorigin="anonymous" integrity="sha384-DEtZTPCHzLgGhPFGwZJNfSjxn9xQVHpJXLW8EdoAvIvXROL0P+G0bN//tOt7NAhV" as="fetch" type="application/wasm"></head>
+ 
+<link rel="modulepreload" href="/hls_video_streamer-181be0e17ebc1f22.js" crossorigin="anonymous" integrity="sha384-OQpyOqv9S6GPR++Z65kgJjGljCHZ2lku/SwuNsC4W7YBv8Y5N9GV5buW0P4QSCjv"><link rel="preload" href="/hls_video_streamer-181be0e17ebc1f22_bg.wasm" crossorigin="anonymous" integrity="sha384-hufXdBPxWuYaH7ooKyCyRiFbFv8LN3lZxrOfmq8lbjQdiQM3WLc+hkl2Bi+8QE5G" as="fetch" type="application/wasm"></head>
 <body>
     
 
 <script type="module">
-import init, * as bindings from '/hls_video_streamer-407d4742aa63d321.js';
-const wasm = await init({ module_or_path: '/hls_video_streamer-407d4742aa63d321_bg.wasm' });
+import init, * as bindings from '/hls_video_streamer-181be0e17ebc1f22.js';
+const wasm = await init({ module_or_path: '/hls_video_streamer-181be0e17ebc1f22_bg.wasm' });
 
 
 window.wasmBindings = bindings;
