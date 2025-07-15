@@ -25,7 +25,7 @@ cd frontend
 trunk serve
 
 This will build and serve the Leptos app at:
-👉 http://localhost:3000
+👉 http://localhost:8080
 
 Start the Backend (Axum API Server)
 cd ..
